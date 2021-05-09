@@ -106,7 +106,7 @@ cp ${serverFiles}/eslintrcjson.txt .eslintrc.json
 
 cp ${serverFiles}/nodemon.json nodemon.json 
 
-cp ${serverFiles}/package.json src/package.json
+cp ${serverFiles}/package.json package.json
 
 echo "server setup completed, commit changes" 
 
