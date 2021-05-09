@@ -1,8 +1,8 @@
 #NVIDAYTECH 2021
 #Automated Server Setup
---------------
+#--------------
 #Please read the README
--------------
+#-------------
 
 
 #!/bin/zsh
@@ -74,13 +74,13 @@ yarn add mocha chai nyc sinon sinon-chai supertest coveralls --dev
 
 
 #fix workspace
-rm index.js app.js
+rm -f index.js app.js
  
-rm -R "views/" "public/" "bin/"
+rm -Rf "routes/" "views/" "public/" "bin/"
 
-mkdir "src/" "src/bin" "src/routes"
+mkdir -p "src/" "src/bin" "src/routes"
 
-mkdir test
+mkdir -p test
 
 cp ${serverFiles}/src-app.js src/app.js
 
@@ -106,9 +106,9 @@ cp ${serverFiles}/eslintrcjson.txt .eslintrc.json
 
 cp ${serverFiles}/nodemon.json nodemon.json 
 
-cp ${serverFiles}/package.json src/package/json
+cp ${serverFiles}/package.json src/package.json
 
-echo "server setup completed, commit changes) 
+echo "server setup completed, commit changes" 
 
 git add * 
 
