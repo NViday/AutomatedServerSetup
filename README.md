@@ -10,8 +10,15 @@ Please review the files in the serverFiles (folder)  and the tutorial and change
 
 The folder fullpath  for this script needs to be sepecified for it to work.For that, you have 2 options:
 
-1. Insert as the third input when calling the function 
-2. Hard-Code it in the script [RECOMMENDED]  
+1) Insert as the third input when calling the function 
+2) Hard-Code it in the script [RECOMMENDED]  
 
 link to tutorial
 https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql/ 
+
+
+
+Cheers!!!
+
+N'Vida 
+--NVidayTech
